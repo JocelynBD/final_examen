@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+ <title>Tabla de Características</title>
+ <style>
+  /* Estilo para filas alternas */
+  .tabla-filas-alternas tbody tr:nth-child(even) {
+   background-color: #f2f2f2;
+  }
+ </style>
+</head>
+<body>
+
+<div class="container mt-4">
+ <h2>Tabla de Características</h2>
+
+ <table class="table tabla-filas-alternas mt-4">
+  <thead class="thead-dark">
+   <tr>
+    <th scope="col">IP</th>
+    <th scope="col">País</th>
+    <th scope="col">Continente</th>
+    <th scope="col">Zona Horaria</th>
+    <th scope="col" id="nombre">-</th>
+    <th scope="col" id="comida">-</th>
+   </tr>
+  </thead>
+  <tbody>
+   <tr>
+    <td id="ip">-</td>
+    <td id="pais">-</td>
+    <td id="continente">-</td>
+    <td id="zona_horaria">-</td>
+    <td id="nombre">-</td>
+    <td id="comida">-</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="js/prueba.js"></script>
+
+</body>
+</html>
